@@ -1,0 +1,29 @@
+@import '../../index.scss';
+
+body[theme='dark']{
+    .switcher{
+        color: var(--white);
+        .img{
+            fill: var(--white);
+        }
+    }
+}
+
+.switcher{
+    display: flex;
+    align-items: center;
+    border: none;
+    font-size: 20px;
+    background: none;
+    color: var(--gray-300);
+
+    span{
+        margin-right: 10px;
+    }
+
+    .img{
+        fill: var(--gray-300);
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,14 @@
+@import '../../index.scss';
+
+body[theme='dark']{
+    h1{
+        color: var(--white);
+    }
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 0;
+}
