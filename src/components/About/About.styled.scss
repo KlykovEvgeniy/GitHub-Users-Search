@@ -14,6 +14,10 @@
         border-radius: 50%;
         aspect-ratio: 1/1;
         margin-right: 30px;
+
+        @media screen and (max-width:624px ) {
+            display: none;
+        }
     }
 
     .about__main{
@@ -43,6 +47,11 @@
                     color: var(--gray-100);
                 }
             }
+
+            @media screen and (max-width:624px ) {
+                flex-wrap: wrap;
+                gap: 20px;
+            }
         }
 
         .other{
@@ -63,6 +72,9 @@
                     height: 20px;
                 }
             }
+            @media screen and (max-width: 1000px) {
+                display: none;
+            }
 
         }
         .about__main-main{
@@ -73,6 +85,11 @@
             .joined{
                 font-size: 15px;
                 color: var(--gray-100);
+
+                
+            @media screen and (max-width:624px ) {
+                display: none;
+            }
             }
     
             .about__data{
@@ -88,6 +105,10 @@
                     font-size: 18px;
                 }
             }
+        }
+
+        @media screen and (max-width:624px ) {
+            width: 100%;
         }
     }
 }
@@ -136,3 +157,4 @@ body[theme='dark']{
         }
     }
 }
+
